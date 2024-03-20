@@ -70,7 +70,7 @@ public class SearchStepDefs {
     @Then("I see the number of jobs available displayed")
     public void i_see_the_number_of_jobs_available() {
         int  results = careersPage.getFilteredResults();
-        Assert.assertTrue("There were no search results", results > 0);
+        Assert.assertTrue("There were " + results+" search results", results > 0);
 
     }
 
