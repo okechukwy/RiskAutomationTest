@@ -67,6 +67,7 @@ public class SearchStepDefs {
     public void i_search_for_job(String text) {
         careersPage.getSearchField(text);
     }
+
     @Then("I see the number of jobs available displayed")
     public void i_see_the_number_of_jobs_available() {
         int  results = careersPage.getFilteredResults();
