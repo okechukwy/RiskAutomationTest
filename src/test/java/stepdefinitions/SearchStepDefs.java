@@ -7,6 +7,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,6 +24,7 @@ public class SearchStepDefs {
     public NavBar navBar;
     public CareersPage careersPage;
     public AboutUsPage aboutUsPage;
+    public String careers = "Careers";
     public WebElementHelpers webElementHelpers;
 
     @Before

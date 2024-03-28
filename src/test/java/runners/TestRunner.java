@@ -22,13 +22,12 @@ import java.io.File;
                 "~@ignore"
         },*/
         plugin = {
-                "usage:target/results/usage.json",
+               /* "usage:target/results/usage.json",
                 "pretty",
                 "junit:target/results/test.xml",
                 "json:target/results/test.json",
                 "html:target/results/htmlreport/",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-                "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"
+                "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"*/
         }
 )
 
