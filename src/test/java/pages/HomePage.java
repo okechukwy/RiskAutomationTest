@@ -18,7 +18,7 @@ public class HomePage {
 
     public void acceptAllCookies(){
         try{
-            driver.findElement(By.id("onetrust-accept-btn-handler")).click();;
+            driver.findElement(ACCEPT_ALL_COOKIES_ID).click();
         }catch (Exception e) {
             throw new NoSuchElementException("Could not locate the cookie",e);
 
