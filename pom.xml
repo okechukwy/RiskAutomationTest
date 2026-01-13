@@ -83,7 +83,7 @@
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
-            <version>5.8.0</version>
+            <version>5.10.2</version>
         </dependency>
 
 
